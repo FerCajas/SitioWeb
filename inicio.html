@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="Estilo.css">
+</head>
+<body>
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <div class="col s12">
+                <h1><b>LOCALIZACION TOKIO</b></h1>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                </ul>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                  <li class="tab"> <a class="active" href="index.html">Regresar</a></li>
+                </ul>
+              </div>
+        </div>
+    </nav>
+    <div>
+        <p>
+            Tokio, la ajetreada capital de Japón, mezcla lo ultramoderno y lo tradicional,<br>
+             desde los rascacielos iluminados con neones hasta los templos históricos. El opulento <br>
+              santuario Shinto Meiji es conocido por su puerta altísima y los bosques circundantes. <br>
+              El Palacio Imperial se ubica en medio de grandes jardines públicos. Los distintos museos <br>
+            de la ciudad ofrecen exhibiciones que van desde el arte clásico. 
+        </p>  
+    </div>
+    <div id="map"></div>
+<script src="Api.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+</body>
+</html>
